@@ -1,0 +1,42 @@
+[
+  {
+    "location": "LAV",
+    "partNumber": "D2527700955000",
+    "alternatePartNo": "D2527700955000LM",
+    "ipcRef": "11 52 25 FIG 55P ITEM NO 010",
+    "textinPlacard": "A",
+    "imageLink": "https://lh3.googleusercontent.com/703mbul00Zt4IPjA2PmR71n3qtWlRAQLWRcCRLWyhsyEbQ3foIAyIWYCJPwSsAH8M-PmXnALpP2Q-7TxyQmy9hVsTupiMWrHuvuOWj__k29UZky9pLLYH9gHsfIVT2oKNc0XxQfJ4h8=w2400"
+  },
+  {
+    "location": "CABIN",
+    "partNumber": "D2528842246000",
+    "alternatePartNo": "D2528842246000LM",
+    "ipcRef": "11 32 52 FIG 28 Z ITEM NO 032",
+    "textinPlacard": "Weight of hatch:approx. 15kg 33lbs",
+    "imageLink": "https://lh3.googleusercontent.com/2_R4QrKlh_vRFpMeqXaYHbrn0Gpm3akFMSIMOsGZ0XSrZOG4vmSkiZ81KCYc1gTNu06T7rAJ_vWUtoo7Pn5aBL44tfvwf2EkU3ltIdTJvV89lQGAiCpKamjbngNAA7BCwzxVjkyDA-Y=w2400"
+  },
+  {
+    "location": "FUSELAGE",
+    "partNumber": "D1121003820200",
+    "alternatePartNo": "D1121003820200LM",
+    "ipcRef": "11 21 52 FIG 06 ITEM NO 020",
+    "textinPlacard": "IMAGE ONLY",
+    "imageLink": "https://lh3.googleusercontent.com/A5QFEh-73L5YQ0yh6itK23mv1LtehJH5UUe7XJWeGKDiPJiQHEMLztKbipYAYztEEiAjSXFEXe3CczR67Y1u_vI3kpmj_ES3jEU5pdf14FJaNEKzt3V_ZGtXMjwFpC634wlPYodHKpw=w2400"
+  },
+  {
+    "location": "FUSELAGE",
+    "partNumber": "D1121004720400",
+    "alternatePartNo": "D1121004720400LM",
+    "ipcRef": "11 21 28 FIG 01 ITEM NO 010",
+    "textinPlacard": "APU FUEL DRAIN",
+    "imageLink": "https://lh3.googleusercontent.com/RmQ2tyPaKse-vMG0t1KR1I5uexaOvjxPoq8pLiUq8R7mF4P4-m7QRH0qTwhaWy9hTGOnApxPz2u6r29kUDJRox9y2W4WDU8SaneYSV8FVmFcnvVxbVs-pSa9zNjDyIkRrXF8uLyp58w=w2400"
+  },
+  {
+    "location": "LAV",
+    "partNumber": "F2527709443200",
+    "alternatePartNo": "F2527709443200LM",
+    "ipcRef": "11 52 25 FIG 55P ITEM NO 080",
+    "textinPlacard": "DOOR MUST BE CLOSED DURING TAKE OFF AND LANDING",
+    "imageLink": "https://lh3.googleusercontent.com/WzVhSVAwtmNKOcNV2RsqQPE-62JuYNo2K_1HIg-btbmibSnyoNlZaBmof-2RaaPGhWHlVvyoqbQ2-Ei_ZvJ2nsyfdkO3Y7rMKI3pR7SbN_AAvlM7BE-2BJLM6Z8-vHHyk5uyPSb8_vM=w2400"
+  }
+]
