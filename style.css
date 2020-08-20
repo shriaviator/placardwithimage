@@ -9,9 +9,7 @@ body{
 
 .modal-class:hover{
   cursor: pointer;
-  background-color: blue;
-
-  font-weight:900;
+  
 }
 
 
@@ -66,7 +64,7 @@ body{
   position: absolute;
   top: 15px;
   right: 35px;
-  color: #f1f1f1;
+  color: whitesmoke;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
@@ -86,12 +84,5 @@ body{
   }
 }
 
-.image{
-  width:192px;
-  height:42px;
-}
-.image:hover{
-  
-}
 
 /* Add a hover effect (blue shadow) */

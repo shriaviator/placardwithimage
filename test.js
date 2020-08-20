@@ -11,8 +11,8 @@ var classNameFunction = function(){
   
   var arrayFinal = classNameArray.map(function(x){x.addEventListener("click",function(){
     modal.style.display = "block";
-    modalImg.src = this.src;
-    captionText.innerHTML = this.alt;
+    modalImg.src = this.attributes['data-src'].value;
+    captionText.innerHTML = "Click cross to exit";
   })})
   }
 
@@ -36,7 +36,7 @@ function buildTable(data) {
             <td>${data[i].alternatePartNo}</td>
             
             <td>${data[i].textinPlacard}</td>
-            <td><img  class = "modal-class image img-thumbnail" src="${data[i].imageLink}" alt="yaha kuch tha" ></td>
+            <td><button class="modal-class btn btn-primary" data-src="${data[i].imageLink}">Click for Image</button></td>
             </tr>`
 
     table.innerHTML += row;
