@@ -38,5 +38,117 @@
     "ipcRef": "11 52 25 FIG 55P ITEM NO 080",
     "textinPlacard": "DOOR MUST BE CLOSED DURING TAKE OFF AND LANDING",
     "imageLink": "https://lh3.googleusercontent.com/WzVhSVAwtmNKOcNV2RsqQPE-62JuYNo2K_1HIg-btbmibSnyoNlZaBmof-2RaaPGhWHlVvyoqbQ2-Ei_ZvJ2nsyfdkO3Y7rMKI3pR7SbN_AAvlM7BE-2BJLM6Z8-vHHyk5uyPSb8_vM=w2400"
+  },
+  {
+    "location": "CABIN",
+    "partNumber": "D1121228120100",
+    "alternatePartNo": "D1121228120100LM",
+    "ipcRef": "11-21-52 FIG 34D ITEM NO- 030B",
+    "textinPlacard": "DANGER DO NOT OPEN DOOR IF RED WARNING LIGHT IS FLASHING (CABIN PRESSURIZED)",
+    "imageLink": "https://lh3.googleusercontent.com/azvBWiQDA5wUQmNgVko3PIdzQxbCdkvKGBCw-JiWO83T5hK9Scg1YYjvy7Nk35ns_ZT-SE_6RBaLhEsRqCQ_172XLZyXLGt-X9Zw2O2IqCuDKK8OY0LKqCoztZhFvOwk5ls_tQzfPoE=w2400"
+  },
+  {
+    "location": "FUSELAGE",
+    "partNumber": "D1121003620000",
+    "alternatePartNo": "D1121003620000LM",
+    "ipcRef": "11-21-34 FIG 01E ITEM NO- 015A",
+    "textinPlacard": "STATIC PORTS DO NOT PLUG OR DEFORM HOLES AREA WITHIN RED LINE MUST BE SMOOTH AND CLEAN",
+    "imageLink": "https://lh3.googleusercontent.com/F0ICECrMiqyEf4UA9r9IK9MM2hQWLTL_g0dx4r3gF_TnQasjlMMhpQVFSoHEtkFrYRaqp_SUi96NxFEM2EmpHztwdDZiRu_r8lt-3EINDmVroZY1TTi5vZ9MqFiuqHNC8ORa1Im4Oow=w2400"
+  },
+  {
+    "location": "ENGINE",
+    "partNumber": "D1121010124300",
+    "alternatePartNo": "D1121010124300LM",
+    "ipcRef": "11-24-71 FIG 05A ITEM NO 040C",
+    "textinPlacard": "448AR",
+    "imageLink": "https://lh3.googleusercontent.com/5CSCqGiFi6PeKOSqt_Gda8S9uAkAcdeg7GQSNYiCR7_ecsqJj1Z7rlvvv1hf2paeVnBoQtKcfddJWERyT2mebSL6yZ5pEEWA2jxgu7jnUr8ueH2vDeQIjU_6NNrDwYQIkzzuhaQfd2Y=w2400"
+  },
+  {
+    "location": "COCKPIT",
+    "partNumber": "00-3248",
+    "alternatePartNo": "00-3248LM",
+    "ipcRef": "25-11-41 FIG 01J ITEM NO-440",
+    "textinPlacard": "LIFEVEST",
+    "imageLink": "https://lh3.googleusercontent.com/Qe1KTiuIXyNa-2QsaivwFWl4PaYHQrjk2cVjs1o1FeM8Jnzn5is5WqUEKfT5ioo04IwjQdfrYXLO2fMf8JzT0cgVt8X8sVStkhLUKaQ4eSI25FteJWHo0h334iO2NzBeASsKkS4HOcI=w2400"
+  },
+  {
+    "location": "GALLEY",
+    "partNumber": "PL17-0031",
+    "alternatePartNo": "PL17-0031LM",
+    "ipcRef": "N/A",
+    "textinPlacard": "PULL TO OPERATE AUTO DRAIN VALVE",
+    "imageLink": "https://lh3.googleusercontent.com/x5gaz83_50Ij2Yw0qHfBYosD3hWv2vVDt-b0R99WuHwknC62ffVYHqlilhdDUhI6z7KePnNnGhQtkUPq-J4ny5FMejV-GVT46vZ0bMd6jfjxUUYU7B8cjpJEyTnHq_YwWmQpEZwxo0E=w2400"
+  },
+  {
+    "location": "COCKPIT",
+    "partNumber": "D1131102720000",
+    "alternatePartNo": "D1131102720000LM",
+    "ipcRef": "25-13-01 FIG 16M ITEM NO 090",
+    "textinPlacard": "DISK STOWAGE",
+    "imageLink": "https://lh3.googleusercontent.com/s7bVNQL_72D2Px9eab5zMgf4omMpQLxu0HyF2FFSnHsQCJO2TrZtzosZs6-Z1RxUHiHyqOa7F85JdqLzzzixFRt7nrz6cydphDeOzT_b8LLuR2GRnkPhY2reHi_W4Y1_FRPWRbzcUtc=w2400"
+  },
+  {
+    "location": "ENGINE",
+    "partNumber": "D1121010124400",
+    "alternatePartNo": "D1121010124400LM",
+    "ipcRef": "11-24-71 FIG 05A ITEM NO- 060",
+    "textinPlacard": "462AR",
+    "imageLink": "https://lh3.googleusercontent.com/iirSooNChT0YK8XvazWLz20D5P9VlxyDj5lYN7ZWso-iZexA-SB8YA20QBrOA2d7VtVMJSR0wcd56rS3JPQeJtBJFz4tgP68Rgaf132GtYR-ffs1lvLdsWf9fQRtD6V5KCVXnfmXzPE=w2400"
+  },
+  {
+    "location": "LAV",
+    "partNumber": "D2527719956400",
+    "alternatePartNo": "D2527719956400LM",
+    "ipcRef": "11-52-25 FIG 45K ITEM NO- 011",
+    "textinPlacard": "IMAGE ONLY",
+    "imageLink": "https://lh3.googleusercontent.com/0Qxh61fQXqcLi78M6jdUPxN02LcQL3ngFEl1vL0SQDxTsW6N9L8fEvKL7_HI09b52CwnPLb3VetvGJpXpRNpf0w5v8ACFv6z3jLcZ4LFg8OHkYWwexPqIDxb1hZoUFckm_gUPKphaJI=w2400"
+  },
+  {
+    "location": "FUSELAGE",
+    "partNumber": "D3221408420400",
+    "alternatePartNo": "D3221408420400LM",
+    "ipcRef": "11-34-32 FIG 02 ITEM NO- 030",
+    "textinPlacard": "INSTALLATION LEFT DOOR WITH REAR BELL CRANK \nINSTALLATION RIGHT DOOR WITH FRONT BELL CRANK",
+    "imageLink": "https://lh3.googleusercontent.com/m5k9a2BRhJ0z5EzY3muBPuk-F3VO4mnFF-Dq95MybYvaxas46bbFurvCUIRnI4ngcvsL5hRyE0hqQq3lrqFVIHngA3w23f1bygScEFKkE9NDeWA-A582Q6cZlc3kGuCjOB5VunhXV-U=w2400"
+  },
+  {
+    "location": "COCKPIT",
+    "partNumber": "D1131005820000",
+    "alternatePartNo": "D1131005820000LM",
+    "ipcRef": "25-13-01 FIG 59E ITEM NO- 095",
+    "textinPlacard": "PORTABLE FIRE EXTIR",
+    "imageLink": "https://lh3.googleusercontent.com/XLKJDrcBr3YLvIuAm1sDlePFUWCvr5zwl_7OJl28AzFChIxs8S-ohFMiZS540vHDXMhUNL87_85ZsFC2VHoidIP1FnqyKJXihQ89Nf5-XvCOquK0kWuU1YT7KCFo5set1vYOLOV3nbY=w2400"
+  },
+  {
+    "location": "CARGO",
+    "partNumber": "D2557295028000",
+    "alternatePartNo": "D2557295028000LM",
+    "ipcRef": "11-36-25 FIG 02S ITEM NO-010",
+    "textinPlacard": 31,
+    "imageLink": "https://lh3.googleusercontent.com/4EfyaMRlgAE9ly9mY6eZVFVh7hpYIAoGrGs14o2FEbL1gSnL7wWXkH0SKOq9kmSDNyHGPdxWcUqeVgUNmWmHVyVUV5lRb9HfEdU-HFjha6TWrg7WB8lr9L_v00VU43H6OtO8egLMVJ0=w2400"
+  },
+  {
+    "location": "CARGO",
+    "partNumber": "D2557295021800",
+    "alternatePartNo": "D2557295021800LM",
+    "ipcRef": "11-36-25 FIG 11C ITEM NO-020",
+    "textinPlacard": 52,
+    "imageLink": "https://lh3.googleusercontent.com/whn7boffCazNSkLdjqTTTOgzQ8d9cXOv7S5zy2I2mseF1v6GQSl6w1to8s0xsVFKxDS2ycjhHGjY7zoE0mJlQjd7kSQtINDieu9TrSj6K1PFIun5CfKAoPF6kZKZsbzQuLSGUj2AOEw=w2400"
+  },
+  {
+    "location": "CARGO",
+    "partNumber": "D2557295021900",
+    "alternatePartNo": "D2557295021900LM",
+    "ipcRef": "11-36-25 FIG 11C ITEM NO-030",
+    "textinPlacard": 53,
+    "imageLink": "https://lh3.googleusercontent.com/cbDcOaVvKGuOR54iukSra9MqoykT619CduBAB6b_ijUgXq3zZ4foOD-JmkOs86cu-7iuHiulYVd-uwIAW_T3bO_23v4YlV9HxLPnbPJcXXGYTMa2i4SSRB1AIGxgiefYq1_dGVfPygA=w2400"
+  },
+  {
+    "location": "CABIN",
+    "partNumber": "A2528131534300",
+    "alternatePartNo": "A2528131534300LM",
+    "ipcRef": "11-52-25 FIG 26F ITEM NO- 320",
+    "textinPlacard": "FIRST AID KIT",
+    "imageLink": "https://lh3.googleusercontent.com/M0jBN6gyzivXqTRlzBaU2gbMT1Pk9Q3_zzCpRuNgekpfuCAR9w8bgJ9fL5Kjxy6dbAeWx9KMBH773oS9FqC_-PgleBlJrbV5i59pKFUcnxr3w9P7ob4s5Io4UUToBoJ0q9QbHDI5PRM=w2400"
   }
 ]
