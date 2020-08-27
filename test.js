@@ -81,7 +81,7 @@ xhttp.send();
 function searchTable(xray, data) {
   var filteredData = []
   for (let i = 0; i < data.length; i++) {
-    let name = data[i].textinPlacard.toLowerCase()
+    let name = data[i].textinPlacard.toString().toLowerCase()
 console.log(name)
     if (name.includes(xray)) {
       filteredData.push(data[i])
