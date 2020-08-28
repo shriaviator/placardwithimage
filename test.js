@@ -12,7 +12,7 @@ var classNameFunction = function(){
   var arrayFinal = classNameArray.map(function(x){x.addEventListener("click",function(){
     modal.style.display = "block";
     modalImg.src = this.attributes['data-src'].value;
-    captionText.innerHTML = "Click cross to exit";
+    captionText.innerHTML = "Click X cross to exit";
   })})
   }
 
