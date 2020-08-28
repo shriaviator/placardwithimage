@@ -8,7 +8,7 @@ function myFunction(){
     modal.style.display = "block";
     
     modalImg.src = event.target.src;
-    captionText.innerHTML = "click to close";
+    captionText.innerHTML = "click  X to close";
 
     var span = document.getElementsByClassName("close")[0];
 

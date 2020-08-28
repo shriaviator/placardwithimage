@@ -4,11 +4,6 @@ body{
   text-align: center;
   
 }
-.modal-class:hover{
-  cursor: pointer;
-  background-color: blue;
-  font-weight:900;
-}
 
 
 /* The Modal (background) */

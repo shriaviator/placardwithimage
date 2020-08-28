@@ -1,4 +1,4 @@
-
+/*
 var requiredObject ;
 var modal = document.getElementById("myModal");
 var modalImg = document.getElementById("img01");
@@ -77,7 +77,7 @@ xhttp.send();
 
 
 
-*/
+
 function searchTable(xray, data) {
   var filteredData = []
   for (let i = 0; i < data.length; i++) {
@@ -101,3 +101,4 @@ let myfunction = function () {
 }
 
 document.getElementById("search-input").addEventListener("keyup",myfunction)
+*/
