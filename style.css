@@ -1,15 +1,13 @@
-th{
-  color:#fff;
-}
+
 
 body{
   text-align: center;
   
 }
-
 .modal-class:hover{
   cursor: pointer;
-  
+  background-color: blue;
+  font-weight:900;
 }
 
 
@@ -64,7 +62,7 @@ body{
   position: absolute;
   top: 15px;
   right: 35px;
-  color: whitesmoke;
+  color: #f1f1f1;
   font-size: 40px;
   font-weight: bold;
   transition: 0.3s;
@@ -83,6 +81,3 @@ body{
     width: 100%;
   }
 }
-
-
-/* Add a hover effect (blue shadow) */
