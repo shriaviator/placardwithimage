@@ -81,3 +81,7 @@ body{
     width: 100%;
   }
 }
+
+table.dataTable thead tr,table.dataTable tfoot tr{
+  background-color:#e8eaf6;
+}
