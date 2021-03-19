@@ -1,103 +1,75 @@
-
-var requiredObject ;
+var requiredObject;
 var modal = document.getElementById("myModal");
 var modalImg = document.getElementById("img01");
 var captionText = document.getElementById("caption");
 
+function myFunction() {
+  modal.style.display = "block";
 
-var classNameFunction = function(){
-  var classNameLive = document.getElementsByClassName("modal-class");
-  var classNameArray=[...classNameLive];
-  
-  var arrayFinal = classNameArray.map(function(x){x.addEventListener("click",function(){
-    modal.style.display = "block";
-    modalImg.src = this.attributes['data-src'].value;
-    captionText.innerHTML = "Click X cross to exit";
-  })})
-  }
+  modalImg.src = event.target.src;
+  captionText.innerHTML = "click  X to close";
 
   var span = document.getElementsByClassName("close")[0];
 
+  // When the user clicks on <span> (x), close the modal
+  span.addEventListener("click", function () {
+    modal.style.display = "none";
+  });
+}
+
+/*
+var classNameFunction = function(){
+  var classNameLive = document.getElementsByClassName("modal-class");
+  console.log(classNameLive)
+  var classNameArray=[...classNameLive];
+  
+  var arrayFinal = classNameArray.map(function(x){x.addEventListener("click",function(){
+    console.log("hello")
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = "click to close";
+  })})
+  }
+  var span = document.getElementsByClassName("close")[0];
 // When the user clicks on <span> (x), close the modal
 span.addEventListener("click",function() {
   modal.style.display = "none";
 })
-
-
-function buildTable(data) {
-  let table = document.getElementById("myTable")
-  table.innerHTML = ""
-
-  for (let i = 0; i < data.length; i++) {
-
-    var row = `<tr>
-            <td>${data[i].location}</td>
-            <td>${data[i].partNumber}</td>
-            <td>${data[i].alternatePartNo}</td>
-            
-            <td>${data[i].textinPlacard}</td>
-            <td><button class="modal-class btn btn-primary" data-src="${data[i].imageLink}">Click for Image</button></td>
-            </tr>`
-
-    table.innerHTML += row;
-  }
- 
- classNameFunction()
-}
+*/
 var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     // Typical action to be performed when the document is ready:
     //document.getElementById("demo").innerHTML = xhttp.responseText;
     // console.dir(xhttp.responseText)
-     requiredObject = JSON.parse(xhttp.responseText);
-
- 
-
- /// Since we already have it in array format  getData(requiredObject)
-    buildTable(requiredObject);
-    
-  }
-   
-}
-xhttp.open("GET", "placardjsonwithimage.json", true);
-xhttp.send();
-
-
-//===============================
-
-//Making the modal work 
-/*
-
-// the searching part when input is recieved from user 
-
-// the searching part when input is recieved from user 
-
-// Event listener add ing the search function :
-
-
-
-*/
-function searchTable(xray, data) {
-  var filteredData = []
-  for (let i = 0; i < data.length; i++) {
-    let name = data[i].textinPlacard.toString().toLowerCase()
-console.log(name)
-    if (name.includes(xray)) {
-      filteredData.push(data[i])
+    requiredObject = JSON.parse(xhttp.responseText);
+    for (let i = 0; i < requiredObject.length; i++) {
+      requiredObject[i][
+        "imageLink"
+      ] = `./images/${requiredObject[i].partNumber}.jpg`;
     }
+    /// Since we already have it in array format  getData(requiredObject)
+
+    $("#example").DataTable({
+      fixedHeader: true,
+      data: requiredObject,
+      columns: [
+        { data: "Location" },
+        { data: "partNumber" },
+        { data: "textinPlacard" },
+        {
+          data: "imageLink",
+          render: function (data, type, row) {
+            return (
+              '<img src="' +
+              data +
+              '" class = "modal-class" style="height:50px;width:100px;" onclick="myFunction()"/>'
+            );
+          },
+        },
+      ],
+    });
   }
-  console.log(filteredData)
-  return filteredData;
-}
-let myfunction = function () {
-  let xray = document.getElementById("search-input")
-  xray = xray.value.toLowerCase();
-
-  console.log(xray)
-  var data = searchTable(xray,requiredObject)
-  buildTable(data)
-  console.dir(getClassName())
-}
-
-document.getElementById("search-input").addEventListener("keyup",myfunction)
+};
+xhttp.open("GET", "testdata.json", true);
+xhttp.send();

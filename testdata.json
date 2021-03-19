@@ -1,0 +1,1032 @@
+[
+  {
+    "Location": "LAV",
+    "textinPlacard": "A",
+    "partNumber": "D2527700955000"
+  },
+  {
+    "Location": "CABIN",
+    "textinPlacard": "Weight of hatch:approx. 15kg 33lbs",
+    "partNumber": "D2528842246000"
+  },
+  {
+    "Location": "FUSELAGE",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "D1121003820200"
+  },
+  {
+    "Location": "FUSELAGE",
+    "textinPlacard": "APU FUEL DRAIN",
+    "partNumber": "D1121004720400"
+  },
+  {
+    "Location": "LAV",
+    "textinPlacard": "DOOR MUST BE CLOSED DURING TAKE OFF AND LANDING",
+    "partNumber": "F2527709443200"
+  },
+  {
+    "Location": "CABIN",
+    "textinPlacard": "DANGER DO NOT OPEN DOOR IF RED WARNING LIGHT IS FLASHING (CABIN PRESSURIZED)",
+    "partNumber": "D1121228120100"
+  },
+  {
+    "Location": "FUSELAGE",
+    "textinPlacard": "STATIC PORTS DO NOT PLUG OR DEFORM HOLES AREA WITHIN RED LINE MUST BE SMOOTH AND CLEAN",
+    "partNumber": "D1121003620000"
+  },
+  {
+    "Location": "ENGINE",
+    "textinPlacard": "448AR",
+    "partNumber": "D1121010124300"
+  },
+  {
+    "Location": "COCKPIT",
+    "textinPlacard": "LIFEVEST",
+    "partNumber": "00-3248"
+  },
+  {
+    "Location": "GALLEY",
+    "textinPlacard": "PULL TO OPERATE AUTO DRAIN VALVE",
+    "partNumber": "PL17-0031"
+  },
+  {
+    "Location": "COCKPIT",
+    "textinPlacard": "DISK STOWAGE",
+    "partNumber": "D1131102720000"
+  },
+  {
+    "Location": "ENGINE",
+    "textinPlacard": "462AR",
+    "partNumber": "D1121010124400"
+  },
+  {
+    "Location": "LAV",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "D2527719956400"
+  },
+  {
+    "Location": "FUSELAGE",
+    "textinPlacard": "INSTALLATION LEFT DOOR WITH REAR BELL CRANK \nINSTALLATION RIGHT DOOR WITH FRONT BELL CRANK",
+    "partNumber": "D3221408420400"
+  },
+  {
+    "Location": "COCKPIT",
+    "textinPlacard": "PORTABLE FIRE EXTIR",
+    "partNumber": "D1131005820000"
+  },
+  {
+    "Location": "CARGO",
+    "textinPlacard": 31,
+    "partNumber": "D2557295028000"
+  },
+  {
+    "Location": "CARGO",
+    "textinPlacard": 52,
+    "partNumber": "D2557295021800"
+  },
+  {
+    "Location": "CARGO",
+    "textinPlacard": 53,
+    "partNumber": "D2557295021900"
+  },
+  {
+    "Location": "CABIN",
+    "textinPlacard": "FIRST AID KIT",
+    "partNumber": "A2528131534300"
+  },
+  {
+    "Location": "FUSELAGE",
+    "textinPlacard": "FUEL -DRAIN/VENT",
+    "partNumber": "D2827086520000"
+  },
+  {
+    "Location": "CABIN",
+    "textinPlacard": "CURTAIN MUST BE OPEN AND SECURED FOR TAKE OFF AND LANDING",
+    "partNumber": "F2527709443000"
+  },
+  {
+    "Location": "FUSELAGE",
+    "textinPlacard": "CAUTION HIGH AIR FLOW INTAKE",
+    "partNumber": "D1121003220200"
+  },
+  {
+    "Location": "WING",
+    "textinPlacard": "L-4",
+    "partNumber": "D1121004220800"
+  },
+  {
+    "Location": "ENGINE",
+    "textinPlacard": "447 AL",
+    "partNumber": "D1121010121600"
+  },
+  {
+    "Location": "CABIN",
+    "textinPlacard": "O2",
+    "partNumber": "D2527719930100"
+  },
+  {
+    "Location": "LAV",
+    "textinPlacard": "LAVATORY",
+    "partNumber": "A2528131550700"
+  },
+  {
+    "Location": "WING",
+    "textinPlacard": "L-2",
+    "partNumber": "D1121004220400"
+  },
+  {
+    "Location": "COCKPIT",
+    "textinPlacard": "LIFE VEST -UNDER SEAT",
+    "partNumber": "00-3233"
+  },
+  {
+    "Location": "FUSELAGE",
+    "textinPlacard": "PUSH HERE",
+    "partNumber": "D1121001320200"
+  },
+  {
+    "Location": "ENGINE",
+    "textinPlacard": "437 AL",
+    "partNumber": "D1121010129700"
+  },
+  {
+    "Location": "FUSELAGE",
+    "textinPlacard": "CAUTION HIGH HOT AIR FLOW",
+    "partNumber": "D1121003320200"
+  },
+  {
+    "Location": "CABIN",
+    "textinPlacard": "OPEN",
+    "partNumber": "D2528715223700"
+  },
+  {
+    "Location": "FUSELAGE",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "D1121005720600"
+  },
+  {
+    "Location": "FUSELAGE",
+    "textinPlacard": "A320 - 77000Kg nose landing gear tyer pressure aircraft on wheels : 178 psi.",
+    "partNumber": "D1121005027000"
+  },
+  {
+    "Location": "WING",
+    "textinPlacard": "MAGNETIC FUEL LEVEL",
+    "partNumber": "D1121004220000"
+  },
+  {
+    "Location": "FUSELAGE",
+    "textinPlacard": "AUXILIARY OPERATION (CRG- OR - HANDPUMP LOCATED ON YELLOW HYD GROUND SERVICE PANEL ) 1. MOVE MANUAL SELECTOR VALVE LEVER TO \"OPEN\" OR \"CLOSE\" AND HOLD IN THIS POSITION. 2. HANDPUMP TO BE OPERATED BY A SECOND PERSON UNTIL DOOR IS FULLY OPENED OR CLOSED.",
+    "partNumber": "D2901024020000"
+  },
+  {
+    "Location": "FUSELAGE",
+    "textinPlacard": "HYD RESORVOIR PRESSURIZATION",
+    "partNumber": "D1121002720800"
+  },
+  {
+    "Location": "FUSELAGE",
+    "textinPlacard": "YELLOW HYDRAULIC BAY",
+    "partNumber": "D1121002820800"
+  },
+  {
+    "Location": "WING",
+    "textinPlacard": "L-3",
+    "partNumber": "D1121004220600"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "D1121001321400"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "ALL CARTS, OR NO CARTS MUST BE INSTALLED BETWEEN TWO COMPARTMENT WALLS AND SECURED BEFORE TAKE- OFF, LANDING AND DURING TAXI AND TURBULANCE",
+    "partNumber": "TS03003ELVB"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "COFFEE POT MUST BE STOWED BEFORE TAKE- OFF, LANDING AND DURING TAXI AND TURBULANCE",
+    "partNumber": "TS03004LVB"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "LIFT",
+    "partNumber": "D2527700842300"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "TO OPEN 1- PUSH FLAP TO GRASP HANDLE 2-LIFT HANDLE FULLY UP TO HORIZONTAL GREEN L",
+    "partNumber": "D1121001320000"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": 42,
+    "partNumber": "D2557295021400"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "SWITCH FOR HYDRAULIC BAY AND WHEEL WELL LIGHTING MAINTENANCE SOCKET INTERPHONE SOCKET",
+    "partNumber": "D1121025520100"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "OPEN",
+    "partNumber": "D1121003520400"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "AIR CONDITIONING",
+    "partNumber": "D1121005320400"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "D2527716120000"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "E",
+    "partNumber": "D2527700955300"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "CAUTION CLOSE AND LATCH ''C'' DUCT BEFORE DEPLOYING REVERSER",
+    "partNumber": "740-0394-13"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "D",
+    "partNumber": "D2527700955200"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "R-3",
+    "partNumber": "D1121004220700"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "R-4",
+    "partNumber": "D1121004220900"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "R-5",
+    "partNumber": "D1121004221100"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "R-2",
+    "partNumber": "D1121004220500"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "OXYGEN DISCHARGE",
+    "partNumber": "D1121009320000"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "GROUND ELECTRIC CONNECTION INTERPHONE SERVICE",
+    "partNumber": "D1121003920000"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "CLOSED OPEN",
+    "partNumber": "D1121003120200"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "L-5",
+    "partNumber": "D1121004221000"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "D2527719931000"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "CAUTION INLET SWINGS INWARDS",
+    "partNumber": "D1121005420100"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "CAUTION BEFORE SUPPLYING EXTERNAL AIR ENSURE THAT AT LEAST ONE WINDOW OR PASSENGER DOOR IS OPEN AND REMAINS OPEN DURING SERVICING",
+    "partNumber": "D1121025220100"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "STBY",
+    "partNumber": "D1121006420200"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "CARGO DOOR SELECTOR",
+    "partNumber": "D1121002220400"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "451 AL",
+    "partNumber": "D1121010129800"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "CLOSE IMMEDIATELY AFTER USE",
+    "partNumber": "PL17-0035"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "DRAIN VALVE BEHIND",
+    "partNumber": "PL17-0024"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "EMERGENCY EQUIPMENT ONLY",
+    "partNumber": "PL17-0036"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "FULL SIZED CARTS ONLY",
+    "partNumber": "PL17-0029"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "WATER SHUT - OFF VALVE",
+    "partNumber": "PL17-0033"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "ALL CARTS OR NO CARTS MUST BE INSTALLED BETWEEN TWO FULL HEIGHT DIVIDERS FOR TAXI, TAKE OFF, TURBULENCE AND LANDING",
+    "partNumber": "PL17-0046"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "DRAIN",
+    "partNumber": "PL17-0044"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "WASTE CONTAINER MUST BE INSTALLED",
+    "partNumber": "PL17-0025"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "STBY",
+    "partNumber": "D1121006420500"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "WASTE NO CIGARETTE DISPOSAL",
+    "partNumber": "3191U201SA52-6"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "OPNE SHUT",
+    "partNumber": "SP0897-3"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "WARNING Stand clear of hazard areas while engine is running",
+    "partNumber": "S700M1479-69D"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "S700M1479-68D"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "SHUT OPEN",
+    "partNumber": "SP0897-2"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "PORTABLE WATER",
+    "partNumber": "D1121011221100"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "UNLOCKED",
+    "partNumber": "D1121003422100"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "LOCKED",
+    "partNumber": "D1121003422000"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "D2527719933200"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "FRESH WATER SYSTEM OPEN SHUT",
+    "partNumber": "F2527708953800"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "CLOSE DOOR IMMEDIATELY WHEN NOT IN USE",
+    "partNumber": "D2527711851300"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "NET ARRANGEMENT COMPARTMENT 3+ 4",
+    "partNumber": "D2557295122000"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "NET ARRANGEMENT COMPARTMENT 5",
+    "partNumber": "D2557295120200"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "NET ARRANGEMENT COMPARTMENT 1",
+    "partNumber": "D2557295120600"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "D1121228220100"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "D1121228220000"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "N0STEP"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "LIFE VEST -UNDER YOUR SEAT- PLEASE FASTEN SEAT BELT WHILE SEATED",
+    "partNumber": "D2528842241200"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "LIFE VEST -UNDER YOUR SEAT",
+    "partNumber": "LVD01"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "NO SMOKING PLEASE FASTEN SEAT BELT WHILE SEATED",
+    "partNumber": "NSFSBD01"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "LIFE VEST FOR INFANTS",
+    "partNumber": "LVD03"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "LIFE VEST -UNDER YOUR SEAT- PLEASE FASTEN SEAT BELT WHILE SEATED",
+    "partNumber": "LVD02"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "MANUAL DRAIN VALVE OVERRIDE",
+    "partNumber": "TS03017MSVB"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "D2527719957300"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "ZODIAC SEAT FRANCE",
+    "partNumber": "00-5007"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "00-6414"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "A320 - 73500Kg nose landing gear tyer pressure aircraft on wheels : 178 psi.",
+    "partNumber": "D1121005023400"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "GROUND HYDRAULIC CONNECTION YELLOW",
+    "partNumber": "D1121002520400"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "196BB",
+    "partNumber": "D1121006722900"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "PULL COVOR",
+    "partNumber": "D2527700023000"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "WATER DRAIN VALVE",
+    "partNumber": "D1121004620000"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "LIFT LEVER TO UNLOCK SEAT",
+    "partNumber": "D2527700842200"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "D910009, 5214295, 69QA, 70QA",
+    "partNumber": "D9100095214295"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "AREMED",
+    "partNumber": "D5211075820000"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "PLEASE LOCK DOOR",
+    "partNumber": "D2527700851100"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "S700M1479-97D"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "S700M1479-96D"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "S700M1479-88DR"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "DOOR GROUND OPENING - To operate handle - Remove safety pin. - Press button at end of handle and operate.- Release handle and insert safety pin. - After complete opening insert each door locking pin. COUTION WHEN CLOSING . - Before moving handle - Remove each door locking pin. - Check green hydraulic pressure is on to achieve full handle travel. - If door cannot be closed, handle must be returned to open position.",
+    "partNumber": "D1121003120000"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "FA259-50400-008"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "OXYGEN MASK",
+    "partNumber": "723-1049-01"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "D2527719931200"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "D2527700852000"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "ABS0724-006-020"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "LIFE VEST UNDER YOUR SEAT",
+    "partNumber": "F0449819IG0"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "NO SMOKING",
+    "partNumber": "F0449820IG0"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "PLEASE FASTEN SEAT BELT WHILE SEATED",
+    "partNumber": "F0449568IG0"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "D2527719952600"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "TO AVOID INJURIES, NEVER LEAVE THE INFANT UNATTENDED ON THE NURSING TABLE",
+    "partNumber": "D2527715759100"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "D1121001320400"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": 32,
+    "partNumber": "D2557295028100"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "L/G PINS",
+    "partNumber": "D1131005520000"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "SAFETY PIN",
+    "partNumber": "D2527719922400"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "STOW IN COMPARTMENT 111 ONLY",
+    "partNumber": "D2528847238500"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "USE SEAT BOTTOM CUSHION FOR FLOTATION",
+    "partNumber": "IG0PRS013"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "PULL DOWN",
+    "partNumber": "IG0PRS009"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "FIRST AID KIT",
+    "partNumber": "IG0PRS001"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "ELT",
+    "partNumber": "IG0PRS003"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "CUT HERE IN EMERGENCY",
+    "partNumber": "D1121223920200"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "D2527720048000"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "EXIT",
+    "partNumber": "D1121001320800"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "D2527719932200"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "NO CIGARETTE DISPOSAL",
+    "partNumber": "D2527700852300"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "VENT FLAP",
+    "partNumber": "D1121003421400"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "As a courtesy to the next passenger may we suggest that you use your towel to wipe off the wash- basin, thanks",
+    "partNumber": "F2527708453300"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "D2527703637200"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "RELEASE KEY FOR PASSENGER OXYGEN",
+    "partNumber": "D2527702235200"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "D2527719957700"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "D2527719953900"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "521 BB",
+    "partNumber": "D1121008440300"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "621 BB",
+    "partNumber": "D1121006729900"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "521 AB",
+    "partNumber": "D1121008440400"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "VACUUM CLEANER SOCKET",
+    "partNumber": "D2527705740100"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "D1121005720000"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "POTABLE WATER SERVICE PANEL",
+    "partNumber": "D1121002120400"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "HYDR COMP WHEEL WELL LIGHT 28 DC 50 MAX INTERPHONE ON OFF",
+    "partNumber": "D9259002520051"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "NSA9502-00"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "D2527719936000"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "GLOVES",
+    "partNumber": "D1131005720000"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "438 AR",
+    "partNumber": "D1121010126600"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "USE ONLY MOBIL JET OIL 2",
+    "partNumber": "151746-1A"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "MOBIL JET OIL 2",
+    "partNumber": "151746-2A"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "D1121054620100"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "CARGO LOADING COMP. 5",
+    "partNumber": "D2557295226000"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "CARGO LOADING COMP. 1",
+    "partNumber": "D2557295226600"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "CARGO LOADING COMP.4 COMP. 3",
+    "partNumber": "D2557295228600"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": 11,
+    "partNumber": "D2557295021000"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "LANDING GEAR DOOR OPENING ON GROUND",
+    "partNumber": "D1121002721000"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "ACCESS TO CARGO FIRE EQUIPMENT",
+    "partNumber": "A2557146821000"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "ACCESS TO ESCAPE SLIDE PRESSURE RESERVOIR",
+    "partNumber": "A2557146821600"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "DANGER DO NOT OPEN DOOR IF RED WARNING LIGHT IS FLASHING (CABIN PRESSURIZED)",
+    "partNumber": "D2527700828000"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "D2527719953900IG0"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "MEDICAL KIT",
+    "partNumber": "MKD01"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "UNIVERSAL PRECAUTION KIT",
+    "partNumber": "UPKD01"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "D1121001420200"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "100 YEARS CIVIL AVIATION IN INDIA 1911-2011",
+    "partNumber": "IG0CIVILAVIATI0N100"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "CRASH AXE",
+    "partNumber": "D1131005620000"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "PBEPLACARD"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "D2527700852400"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "CAUTION LATCH, STOW AND SECURE ALL DOORS. DRAWERS, INSERTS, TABL, SHELVES CART DOOR AND STOW CARTS AND LOOSE ITEMS DURING TAXI,TAKE-OFF. TURBULENCE AND LANDING. THE GROSS WEIGHT OF ANY INSERT OR THE COMBINED GROSS WEIGHTS OF ANY INSERTS WHEN STOWED TOGETHER, MUST NOT EXCEED THE PLACARD WEIGHT OF THE COMPARTMWNT WHERE STOWED. ALL CARTS OR NO CARTS MUST BE INSTALLED BETWEEN TWO FULL HEIGHT DIVIDERS DURING TAXI, TAKE- OFF TURBUENCE AND LANDING NOTICE WASH HANDS BEFORE HANDLING GOOD",
+    "partNumber": "TS03033SQLVR"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "PBE",
+    "partNumber": "IG0PRS002"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "RESERVOIR ASSY YELLOW",
+    "partNumber": "D9337016524000"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "D2527702051000"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "AED AUTOMATED EXTERNAL DEFIBRILLATOR",
+    "partNumber": "AEDPLACARD"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "WATER BOILER",
+    "partNumber": "PL17-0226"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "NO SMOKING IN LAVATORY",
+    "partNumber": "D2528837251000"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "Weight of hatch:approx. 15kg 33lbs",
+    "partNumber": "IG0PRS005"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "SPECIAL SEAT CUSHION IS REQUIRED INSTALL SEAT BOTTOM CUSHION P/N 854604-467 THIS LOACATION ONLY",
+    "partNumber": "856263-029"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "EMERGENCY OPENING",
+    "partNumber": "D2527700621400"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "EMERGENCY OPENING",
+    "partNumber": "D2527700621500"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "EMERGENCY OPENING",
+    "partNumber": "D2528842221300"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "EMERGENCY OPENING",
+    "partNumber": "D2528842221200"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "EMERGENCY OPENING",
+    "partNumber": "D2528847223800"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "EMERGENCY OPENING",
+    "partNumber": "D2528847223900"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "WASTE NO CIGARETTE DISPOSAL",
+    "partNumber": "723-1048-01"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": 51,
+    "partNumber": "D2557295021700"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": 13,
+    "partNumber": "D2557295021200"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "CUT HERE IN EMERGENCY",
+    "partNumber": "D1121006820200"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "PLEASE LOCK DOOR",
+    "partNumber": "D2527700851200"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "621 AB",
+    "partNumber": "D1121006730000"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "DEMO SEAT CUSHION",
+    "partNumber": "D2528847237500"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "CAUTION BEFORE SUPPLYING EXTERNAL AIR ENSURE THAT AT LEAST ONE WINDOW OR PASSENGER DOOR IS OPEN AND REMAINS OPEN DURING SERVICING",
+    "partNumber": "D1121025220000"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "CAUTION FLIGHT RECORDERS HERE",
+    "partNumber": "D1121005920100"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": 41,
+    "partNumber": "D2557295021300"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": 12,
+    "partNumber": "D2557295021100"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "CLOSED",
+    "partNumber": "D1121003820600"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "SHUT OFF VALVE",
+    "partNumber": "TS03015SMVB"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "NO STOWAGE",
+    "partNumber": "D2527700840800"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "D1121001320700"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "IMAGE ONLY",
+    "partNumber": "D1121001320600"
+  },
+  {
+    "Location": "unknown",
+    "textinPlacard": "WARNING SLAT FAN COWL FULL OPENING INSTRUCTIONS, SLATS MUST BE RETRACTED AND INHIBITED BEFORE YOU FULLY OPEN THE FAN COWL.",
+    "partNumber": "S700M1479-224D"
+  }
+]
