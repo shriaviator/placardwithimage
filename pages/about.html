@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, minimum-scale=1"
+    />
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+    <!--Firebase Configuration -->
+    <!--To Do How to hide this configuration-->
+
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
+    <!-- Added Firebase products that I want to use -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-storage.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+    <!--
+  FontAwesome- JS
+-->
+    <script
+      defer
+      src="https://kit.fontawesome.com/ba4620771e.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!--Local Stylesheet-->
+
+    <link rel="stylesheet" href="../styles/about.css" />
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    
+    <p><a href="../index.html">Home</a></p>
+    <div class="container-fluid sheet">
+     
+        <!--
+    What I am trying to do is a horizontal form 
+    vertical form on mobile horizontal form on desktop 
+  -->
+        <p id="test"<strong>A new Part Number</strong></p>
+        <!-- class="needs-validation"  novalidate -->
+
+    <form class="needs-validation"  novalidate id="placardListForm" action="#" >
+      <div class="form-group row">
+        <label for="partNumber" class="col-sm-2 col-form-label">Part Number</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="partNumber" style="text-transform:uppercase"  required placeholder="..." name="partNumber">
+        </div>
+        
+      </div>
+      
+      <fieldset class="form-group row">
+        <legend class="col-form-label col-sm-2 float-sm-left pt-0">Placard Type</legend>
+        <div class="col-sm-10">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" required>
+            <label class="form-check-label" for="gridRadios1">
+              Image Only
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2"  checked>
+            <label class="form-check-label" for="gridRadios2">
+              Text
+            </label>
+          </div>
+          <div class="form-check disabled">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+            <label class="form-check-label" for="gridRadios3">
+              Disabled test
+            </label>
+          </div>
+        </div>
+      </fieldset>
+      <div class="form-group row">
+        <label for="placardText" class="col-sm-2 col-form-label">Placard Text</label>
+        <div class="col-sm-10">
+          <input type="text" class="form-control" id="placardText" style="text-transform:uppercase"  required name="placa">
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="placardLocation" class="col-sm-2 col-form-label">Location</label>
+        <div class="col-sm-10">
+          <select name="placardLocation" id="placardLocation" class="custom-select"  required>
+            <option selected disabled value="">Choose...</option>
+        
+        <option value = "LAV">LAV</option>
+        <option value = "FUSELAGE">FUSELAGE</option>
+        <option value = "GALLEY">GALLEY</option>
+        <option value = "COCKPIT">COCKPIT</option>
+        <option value = "CARGO">CARGO</option>
+        <option value = "WING">WING</option>
+        <option value = "CABIN">CABIN</option>
+        <option value = "ENGINE-IAE">ENGINE-IAE</option>
+        <option value = "ENGINE-PW">ENGINE-PW</option>
+        <option value = "ENGINE-CFM-5B">ENGINE-CFM-5B</option>
+        <option value = "ENGINE-CFM-LEAP">ENGINE-CFM-LEAP</option>
+
+          </select>
+        </div>
+      </div>
+      <div class="form-group row">
+        <label for="customFile">Attach Image</label>
+        <div class="col-sm-10 " >
+        <input type="file" class="form-control-file" id="customFile">
+      </div>
+      </div>
+      <div class="form-group row">
+        <div class="col-sm-10 offset-sm-2">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck1">
+            <label class="form-check-label" for="gridCheck1">
+              Example checkbox
+            </label>
+          </div>
+        </div>
+      </div>
+      <div class="form-group row">
+        <div class="col-sm-10">
+          <button type="submit" class="btn btn-primary btn-block">Submit</button>
+        </div>
+      </div>
+    </form>
+   <script src="../scripts/firestorekey.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="../scripts/about.js"></script>
+  </body>
+</html>

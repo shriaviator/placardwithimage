@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+    <meta name="author" content="Jebah" />
+    <title>Login Page</title>
+    <!-- Bootstrap core CSS -->
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <!--
+      Local Stylesheet
+    -->
+    <link rel="stylesheet" type="text/css" href="../styles/login.css" />
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="header clearfix">
+        <nav>
+          <ul class="nav nav-pills pull-xs-right float-right">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Login Page</a>
+            </li>
+          </ul>
+        </nav>
+        <h3 class="text-muted float-left">Jebah</h3>
+      </div>
+
+      <div class="row marketing">
+        <div id="errors"></div>
+        <div class="row clearfix">
+          <div class="col-lg-12">
+            <h2>Try Social Login</h2>
+          </div>
+          <div class="col-lg-3">
+            <button
+              type="button"
+              id="facebook"
+              class="btn btn-outline-primary btn-block"
+            >
+              Disabled
+            </button>
+          </div>
+          <div class="col-lg-3">
+            <button
+              type="button"
+              id="twitter"
+              class="btn btn-outline-info btn-block"
+            >
+              Disabled
+            </button>
+          </div>
+          <div class="col-lg-3">
+            <button
+              type="button"
+              id="google"
+              class="btn btn-outline-danger btn-block"
+            >
+              Google
+            </button>
+          </div>
+          <div class="col-lg-3">
+            <button
+              type="button"
+              id="github"
+              class="btn btn-outline-success btn-block"
+            >
+              Disabled
+            </button>
+          </div>
+          <div><hr /></div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <p>&copy; Jebah 2021</p>
+      </footer>
+    </div>
+    <!-- /container -->
+    <!--Firebase Configuration -->
+    <!--To Do How to hide this configuration-->
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
+    <!-- Added Firebase products that I want to use -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-firestore.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+      var firebaseConfig = {
+        apiKey: "AIzaSyAeB9wOjuStJMcIFUTtOWGBfAE5sA-iIH0",
+        authDomain: "placardwithimage.firebaseapp.com",
+        projectId: "placardwithimage",
+        storageBucket: "placardwithimage.appspot.com",
+        messagingSenderId: "948987512120",
+        appId: "1:948987512120:web:75beac96b085c317a22dcd",
+        measurementId: "G-CJ3PN4YYH3",
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+      const db = firebase.firestore();
+      const fauth = firebase.auth();
+    </script>
+  </body>
+</html>

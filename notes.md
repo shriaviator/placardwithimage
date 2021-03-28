@@ -15,11 +15,7 @@
 > - Placard-Text : string 
 > image_Location_reference : Local versus hosted images
 
+- watch video 
+- - add cross 
 
-
-
-
-
-
-
-
+-- login page can be modeled as per figma login 
