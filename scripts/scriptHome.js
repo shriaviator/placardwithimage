@@ -1,3 +1,6 @@
+/*To-Do-Js :close modal on signup*/
+/*To-Do-Js :dispaly none needs to be made the defailut gor diplay none for all attributes  */
+
 var requiredObject;
 var modal = document.getElementById("myModal");
 var modalImg = document.getElementById("img01");
@@ -9,7 +12,7 @@ function myFunction() {
   modalImg.src = event.target.src;
   captionText.innerHTML = "click  X to close";
 
-  var span = document.getElementsByClassName("close")[0];
+  var span = document.getElementsByClassName("selfModalClose")[0];
 
   // When the user clicks on <span> (x), close the modal
   span.addEventListener("click", function () {
@@ -56,3 +59,96 @@ xhttp.onreadystatechange = function () {
 };
 xhttp.open("GET", "testdata.json", true);
 xhttp.send();
+
+// google sign up
+document.getElementById("googleSignUp").addEventListener("click", (xray) => {
+  var provider = new firebase.auth.GoogleAuthProvider();
+  provider.addScope("profile");
+  provider.addScope("email");
+  firebase
+    .auth()
+    .signInWithPopup(provider)
+    .then(function (result) {
+      // This gives you a Google Access Token.
+      var token = result.credential.accessToken;
+      console.log(token);
+      // The signed-in user info.
+      var user = result.user;
+      console.log(user);
+    });
+  // alert("hello");
+});
+
+// logout action
+
+document
+  .getElementById("bs-placard-logout")
+  .addEventListener("click", (xray) => {
+    alert("hello");
+    fauth
+      .signOut()
+      .then((xray) => {
+        console.log("user signed out");
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  });
+
+// login action
+document
+  .getElementById("bs-placard-login")
+  .addEventListener("click", (xray) => {
+    // alert("helloi");
+    var provider = new firebase.auth.GoogleAuthProvider();
+
+    firebase
+      .auth()
+      .signInWithPopup(provider)
+      .then((result) => {
+        /** @type {firebase.auth.OAuthCredential} */
+        var credential = result.credential;
+
+        // This gives you a Google Access Token. You can use it to access the Google API.
+        var token = credential.accessToken;
+        // The signed-in user info.
+        var user = result.user;
+        console.log(token, user);
+        // console.log("hello");
+        // ...
+      })
+      .catch((error) => {
+        // Handle Errors here.
+        var errorCode = error.code;
+        var errorMessage = error.message;
+        // The email of the user's account used.
+        var email = error.email;
+        // The firebase.auth.AuthCredential type that was used.
+        var credential = error.credential;
+        // ...
+      });
+  });
+fauth.onAuthStateChanged(function (user) {
+  if (user) {
+    // User is signed in.
+    console.log("user logged in ");
+    console.log(user.email);
+    document.getElementById("plcardTable").style.display = "block";
+    [...document.getElementsByClassName("logged-in")].forEach((item) => {
+      item.style.display = "block";
+    });
+    [...document.getElementsByClassName("logged-out")].forEach((item) => {
+      item.style.display = "none";
+    });
+  } else {
+    // User is signed out.
+    console.log("kuch toh change hua");
+    document.getElementById("plcardTable").style.display = "none";
+    [...document.getElementsByClassName("logged-in")].forEach((item) => {
+      item.style.display = "none";
+    });
+    [...document.getElementsByClassName("logged-out")].forEach((item) => {
+      item.style.display = "block";
+    });
+  }
+});

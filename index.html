@@ -1,9 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!--To-Do-HTML :I have broken the image modal same needs to be fixed*-->
+    <!--To-Do-HTML :Login Page html css needs to be deleted *-->
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-app.js"></script>
+    <!--Firebase Configuration -->
+    <!--To Do How to hide this configuration-->
 
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-analytics.js"></script>
+    <!-- Added Firebase products that I want to use -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-firestore.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-storage.js"></script>
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -27,7 +38,9 @@
       src="https://kit.fontawesome.com/ba4620771e.js"
       crossorigin="anonymous"
     ></script>
+
     <!--Local style sheet-->
+
     <link rel="stylesheet" href="./styles/styleHome.css" />
   </head>
   <body>
@@ -49,16 +62,22 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="#"
+              <a class="nav-link logged -in" href="#"
                 >Home <span class="sr-only">(current)</span></a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="./pages/login.html">Login</a>
+              <a
+                class="nav-link logged-out"
+                data-toggle="modal"
+                data-target="#bsmodal-login"
+                href="#"
+                >Login</a
+              >
             </li>
             <li class="nav-item dropdown">
               <a
-                class="nav-link dropdown-toggle"
+                class="nav-link dropdown-toggle logged-in"
                 href="#"
                 id="navbarDropdown"
                 role="button"
@@ -80,13 +99,24 @@
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Test</a>
+              <a
+                class="nav-link logged-out"
+                href="#"
+                data-toggle="modal"
+                data-target="#bsmodal-signup"
+                >SignUp</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link logged-in" href="#" id="bs-placard-logout"
+                >Log Out</a
+              >
             </li>
           </ul>
         </div>
       </nav>
     </header>
-    <div class="plcardTable">
+    <div id="plcardTable">
       <table
         id="example"
         class="display cell-border compact"
@@ -112,15 +142,16 @@
       </table>
     </div>
     <!-- The Modal -->
-    <div id="myModal" class="modal">
+    <div id="myModal" class="self-modal">
       <!-- The Close Button -->
-      <span class="close">&times;</span>
+      <span class="selfModalClose">&times;</span>
 
       <!-- Modal Content (The Image) -->
       <img class="modal-content" id="img01" />
 
       <!-- Modal Caption (Image Text) -->
-      <div id="caption"></div>
+      <!--Caption click image to close disabled-->
+      <!-- <div id="caption"></div> -->
     </div>
 
     <!-- <script></script>
@@ -150,6 +181,90 @@
         <p>Jebah &copy; 2021</p>
       </div>
     </footer>
+
+    <!--
+  Bootstrap sign up modal 
+-->
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="bsmodal-signup"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="bsmodal-signupTitle"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLongTitle">Sign Up</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">...test123</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+              id="googleSignUp"
+            >
+              Sign up with Google
+            </button>
+            <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--
+bootstrap Login Modal
+-->
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="bsmodal-login"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="bsmodal-loginLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="bsmodal-loginLabel">Login Modal</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">... test 123</div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              data-dismiss="modal"
+            >
+              Close
+            </button>
+            <button type="button" class="btn btn-primary" id="bs-placard-login">
+              Login Google
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./scripts/firestorekey.js"></script>
     <script src="./scripts/scriptHome.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

@@ -13,6 +13,8 @@ var firebaseConfig = {
 // Initialize Firebase
 firebase.initializeApp(firebaseConfig);
 firebase.analytics();
+
+// refernces to firebase for local Use
 const db = firebase.firestore();
 const fauth = firebase.auth();
 const firestorage = firebase.storage();

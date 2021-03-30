@@ -1,3 +1,10 @@
+/*To-Do-Js : When image is seleceteed placard text should be set to image only */
+/*To-Do-Js :File size on input file types and file size tio be restricted */
+/*To-Do-Js : todo make image filename = partnumber of placard name
+ todo images are not going into a folder
+iamge ipload input value should change on file upload
+ clear the form rather than reset it https://www.javascript-coder.com/javascript-form/javascript-reset-form/*/
+
 // $ ready jquery alternative
 
 function docReady(fn) {
@@ -14,10 +21,6 @@ function docReady(fn) {
 }
 
 const placardListForm = document.querySelector("#placardListForm");
-// todo make image filename = partnumber of placard name
-// todo images are not going into a folder
-// iamge ipload input value should change on file upload
-// clear the form rather than reset it https://www.javascript-coder.com/javascript-form/javascript-reset-form/
 
 docReady(() => {
   document

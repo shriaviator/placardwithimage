@@ -25,7 +25,7 @@ body {
 } */
 
 /* The Modal (background) */
-.modal {
+.self-modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
   z-index: 1; /* Sit on top */
@@ -76,7 +76,7 @@ body {
 }
 
 /* The Close Button */
-.close {
+.selfModalClose {
   position: absolute;
   top: 15px;
   right: 35px;
