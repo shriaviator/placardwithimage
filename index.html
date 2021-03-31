@@ -15,6 +15,7 @@
     <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-auth.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-firestore.js"></script>
     <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-storage.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.1/firebase-messaging.js"></script>
     <!-- Bootstrap CSS -->
     <link
       rel="stylesheet"
@@ -47,6 +48,7 @@
     <header>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Jebah</a>
+        <span class="navbar-text text-primary" id="loggedinUserEmail"></span>
         <button
           class="navbar-toggler"
           type="button"
@@ -66,18 +68,18 @@
                 >Home <span class="sr-only">(current)</span></a
               >
             </li>
-            <li class="nav-item">
+            <li class="nav-item logged-out" style="display: none">
               <a
-                class="nav-link logged-out"
+                class="nav-link"
                 data-toggle="modal"
                 data-target="#bsmodal-login"
                 href="#"
                 >Login</a
               >
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown logged-in" style="display: none">
               <a
-                class="nav-link dropdown-toggle logged-in"
+                class="nav-link dropdown-toggle"
                 href="#"
                 id="navbarDropdown"
                 role="button"
@@ -98,49 +100,55 @@
                 <a class="dropdown-item" href="#">Something else here</a>
               </div>
             </li>
-            <li class="nav-item">
+            <li class="nav-item logged-out" style="display: none">
               <a
-                class="nav-link logged-out"
+                class="nav-link"
                 href="#"
                 data-toggle="modal"
                 data-target="#bsmodal-signup"
                 >SignUp</a
               >
             </li>
-            <li class="nav-item">
-              <a class="nav-link logged-in" href="#" id="bs-placard-logout"
-                >Log Out</a
-              >
+            <li class="nav-item logged-in" style="display: none">
+              <a class="nav-link" href="#" id="bs-placard-logout">Log Out</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
-    <div id="plcardTable">
-      <table
-        id="example"
-        class="display cell-border compact"
-        style="width: 100%"
-      >
-        <thead>
-          <tr>
-            <th>Location</th>
-            <th>PartNumber</th>
-            <th>TextinPlacard</th>
-            <th>Click to Enlarge</th>
-          </tr>
-        </thead>
-        <tbody></tbody>
-        <tfoot>
-          <tr>
-            <th>Location</th>
-            <th>PartNumber</th>
-            <th>TextinPlacard</th>
-            <th>(Click to Enlarge)</th>
-          </tr>
-        </tfoot>
-      </table>
+    <div class="input-group mb-3">
+      <div class="input-group-prepend">
+        <label class="input-group-text" for="inputGroupSelect01"
+          >Select Location</label
+        >
+      </div>
+      <select class="custom-select" id="inputGroupSelect01">
+        <option selected>Choose...</option>
+        <option value="1">One</option>
+        <option value="2">Two</option>
+        <option value="3">Three</option>
+      </select>
     </div>
+    <table id="example" class="display cell-border compact" style="width: 100%">
+      <thead>
+        <tr>
+          <th>Location</th>
+          <th>PartNumber</th>
+          <th>TextinPlacard</th>
+          <th>Click to Enlarge</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+      <tfoot>
+        <tr>
+          <th>Location</th>
+          <th>PartNumber</th>
+          <th>TextinPlacard</th>
+          <th>(Click to Enlarge)</th>
+        </tr>
+      </tfoot>
+    </table>
+
     <!-- The Modal -->
     <div id="myModal" class="self-modal">
       <!-- The Close Button -->
@@ -197,7 +205,7 @@
       <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="exampleModalLongTitle">Sign Up</h5>
+            <h5 class="modal-title" id="exampleModalLongTitle">Welcome!</h5>
             <button
               type="button"
               class="close"
@@ -207,15 +215,20 @@
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <div class="modal-body">...test123</div>
-          <div class="modal-footer">
+          <div class="modal-body">
+            <button class="loginBtn loginBtn--google" id="googleSignUp">
+              SignUp with Google
+            </button>
+          </div>
+          <div class="modal-footer justify-content-between">
+            <button type="button" class="btn btn-link">Login</button>
             <button
               type="button"
               class="btn btn-secondary"
               data-dismiss="modal"
-              id="googleSignUp"
+              id=""
             >
-              Sign up with Google
+              Close
             </button>
             <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
           </div>
@@ -238,7 +251,7 @@ bootstrap Login Modal
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h5 class="modal-title" id="bsmodal-loginLabel">Login Modal</h5>
+            <h5 class="modal-title" id="bsmodal-loginLabel">Welcome Back!</h5>
             <button
               type="button"
               class="close"
@@ -248,18 +261,26 @@ bootstrap Login Modal
               <span aria-hidden="true">&times;</span>
             </button>
           </div>
-          <div class="modal-body">... test 123</div>
-          <div class="modal-footer">
-            <button
-              type="button"
-              class="btn btn-secondary"
-              data-dismiss="modal"
-            >
-              Close
+          <div class="modal-body">
+            <button class="loginBtn loginBtn--google" id="bs-placard-login">
+              Login with Google
             </button>
-            <button type="button" class="btn btn-primary" id="bs-placard-login">
-              Login Google
-            </button>
+          </div>
+          <div class="modal-footer justify-content-between">
+            <div>
+              <button type="button" class="btn btn-link">
+                Create Account!
+              </button>
+            </div>
+            <div>
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-dismiss="modal"
+              >
+                Close
+              </button>
+            </div>
           </div>
         </div>
       </div>

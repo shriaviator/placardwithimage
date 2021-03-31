@@ -1,16 +1,15 @@
-/*To-Do-Js :close modal on signup*/
-/*To-Do-Js :dispaly none needs to be made the defailut gor diplay none for all attributes  */
+/*To-Do-Js :close modal on signup/Login*/
 
 var requiredObject;
 var modal = document.getElementById("myModal");
 var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
+// var captionText = document.getElementById("caption");
 
 function myFunction() {
   modal.style.display = "block";
 
   modalImg.src = event.target.src;
-  captionText.innerHTML = "click  X to close";
+  // captionText.innerHTML = "click  X to close";
 
   var span = document.getElementsByClassName("selfModalClose")[0];
 
@@ -24,8 +23,6 @@ var xhttp = new XMLHttpRequest();
 xhttp.onreadystatechange = function () {
   if (this.readyState == 4 && this.status == 200) {
     // Typical action to be performed when the document is ready:
-    //document.getElementById("demo").innerHTML = xhttp.responseText;
-    // console.dir(xhttp.responseText)
     requiredObject = JSON.parse(xhttp.responseText);
     for (let i = 0; i < requiredObject.length; i++) {
       requiredObject[i][
@@ -34,6 +31,7 @@ xhttp.onreadystatechange = function () {
     }
     /// Since we already have it in array format  getData(requiredObject)
     $(document).ready(function () {
+      $("#example").wrap('<div id="placardTableHide" style="display:none"/>');
       $("#example").DataTable({
         scrollX: true,
         fixedHeader: true,
@@ -75,7 +73,9 @@ document.getElementById("googleSignUp").addEventListener("click", (xray) => {
       // The signed-in user info.
       var user = result.user;
       console.log(user);
+      $("#bsmodal-signup").modal("hide");
     });
+  /*To-Do-Js :Promise error not being caught */
   // alert("hello");
 });
 
@@ -116,6 +116,7 @@ document
         console.log(token, user);
         // console.log("hello");
         // ...
+        $("#bsmodal-login").modal("hide");
       })
       .catch((error) => {
         // Handle Errors here.
@@ -133,7 +134,9 @@ fauth.onAuthStateChanged(function (user) {
     // User is signed in.
     console.log("user logged in ");
     console.log(user.email);
-    document.getElementById("plcardTable").style.display = "block";
+    document.getElementById("loggedinUserEmail").innerText = user.email;
+    document.getElementById("placardTableHide").style.display = "block";
+    $("#example").DataTable().columns.adjust().draw();
     [...document.getElementsByClassName("logged-in")].forEach((item) => {
       item.style.display = "block";
     });
@@ -142,8 +145,8 @@ fauth.onAuthStateChanged(function (user) {
     });
   } else {
     // User is signed out.
-    console.log("kuch toh change hua");
-    document.getElementById("plcardTable").style.display = "none";
+    document.getElementById("loggedinUserEmail").innerText = "";
+    document.getElementById("placardTableHide").style.display = "none";
     [...document.getElementsByClassName("logged-in")].forEach((item) => {
       item.style.display = "none";
     });

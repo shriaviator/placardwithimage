@@ -20,3 +20,29 @@ const fauth = firebase.auth();
 const firestorage = firebase.storage();
 const firestorageRef = firestorage.ref();
 // const placardImagesRef = firestorageRef.child("placardImages/");
+const messaging = firebase.messaging();
+messaging
+  .requestPermission()
+  .then(() => {
+    console.log("have permission");
+    return messaging.getToken({
+      vapidKey:
+        "BI5BrBT09c3x5N67lDyRt0me9xCqJaHPqZEj22y8gdOu93PPvKGxgpT4UuvqqDpO-jMGBRaWD-cT_UKmgKcC1SE",
+    });
+  })
+  .then((token) => {
+    console.log(token);
+    return "hello";
+  })
+  .catch((err) => {
+    console.log("permission denied");
+  });
+
+messaging.onMessage((payload) => {
+  console.log("onscreenpushmessage", payload);
+});
+
+/*To-Do-Js :Public key
+BI5BrBT09c3x5N67lDyRt0me9xCqJaHPqZEj22y8gdOu93PPvKGxgpT4UuvqqDpO-jMGBRaWD-cT_UKmgKcC1SE
+Private key
+g0JneyGb2IqIOy4gXO_bKZWadJ8ISiwiNuL5NbIYqLA*/
