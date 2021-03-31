@@ -20,7 +20,7 @@ function myFunction() {
 }
 /*To-Do-Js :*/
 async function fetchPlacardData() {
-  const response = await fetch("../testdata.json", {
+  const response = await fetch("./testdata.json", {
     headers: {
       "Content-Type": "application/json",
       Accept: "application/json",
