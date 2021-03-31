@@ -1,5 +1,5 @@
 /*To-Do-Js :close modal on signup/Login*/
-
+/*To-Do-Js :*/
 var requiredObject;
 var modal = document.getElementById("myModal");
 var modalImg = document.getElementById("img01");
