@@ -25,12 +25,17 @@
     />
 
     <!-- Datatables CSS -->
-    <link
+    <!-- <link
       rel="stylesheet"
       type="text/css"
       href="https://cdn.datatables.net/v/dt/dt-1.10.24/b-1.7.0/datatables.min.css"
+    /> -->
+    <!--Datatables with search panes added -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.datatables.net/v/dt/dt-1.10.24/b-1.7.0/sp-1.2.2/sl-1.3.3/datatables.min.css"
     />
-
     <title>Jebah</title>
     <!--
   FontAwesome- Css
@@ -116,19 +121,7 @@
         </div>
       </nav>
     </header>
-    <div class="input-group mb-3">
-      <div class="input-group-prepend">
-        <label class="input-group-text" for="inputGroupSelect01"
-          >Select Location</label
-        >
-      </div>
-      <select class="custom-select" id="inputGroupSelect01">
-        <option selected>Choose...</option>
-        <option value="1">One</option>
-        <option value="2">Two</option>
-        <option value="3">Three</option>
-      </select>
-    </div>
+
     <table id="example" class="display cell-border compact" style="width: 100%">
       <thead>
         <tr>
@@ -302,9 +295,14 @@ bootstrap Login Modal
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
-    <script
+    <!-- <script
       type="text/javascript"
       src="https://cdn.datatables.net/v/dt/dt-1.10.24/b-1.7.0/datatables.min.js"
+    ></script> -->
+    <!--Search pane added to datatbles -->
+    <script
+      type="text/javascript"
+      src="https://cdn.datatables.net/v/dt/dt-1.10.24/b-1.7.0/sp-1.2.2/sl-1.3.3/datatables.min.js"
     ></script>
   </body>
 </html>

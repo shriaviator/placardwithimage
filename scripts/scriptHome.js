@@ -19,23 +19,44 @@ function myFunction() {
   });
 }
 /*To-Do-Js :*/
-var xhttp = new XMLHttpRequest();
-xhttp.onreadystatechange = function () {
-  if (this.readyState == 4 && this.status == 200) {
-    // Typical action to be performed when the document is ready:
-    requiredObject = JSON.parse(xhttp.responseText);
-    for (let i = 0; i < requiredObject.length; i++) {
-      requiredObject[i][
-        "imageLink"
-      ] = `./images/${requiredObject[i].partNumber}.jpg`;
+
+fetch("../testdata.json")
+  .then((response) => {
+    return response.json();
+  })
+  .then((tableData) => {
+    for (let i = 0; i < tableData.length; i++) {
+      tableData[i]["imageLink"] = `./images/${tableData[i].partNumber}.jpg`;
     }
-    /// Since we already have it in array format  getData(requiredObject)
+    requiredObject = tableData;
     $(document).ready(function () {
       $("#example").wrap('<div id="placardTableHide" style="display:none"/>');
       $("#example").DataTable({
+        language: {
+          searchPanes: {
+            collapse: { 0: "Select Location", _: "Select Location (%d)" },
+          },
+        },
+        buttons: [
+          {
+            extend: "searchPanes",
+            config: {
+              cascadePanes: true,
+            },
+          },
+        ],
+        columnDefs: [
+          {
+            searchPanes: {
+              show: true,
+            },
+            targets: [0],
+          },
+        ],
+        dom: "Bfrtip",
         scrollX: true,
         fixedHeader: true,
-        data: requiredObject,
+        data: tableData,
         columns: [
           { data: "Location" },
           { data: "partNumber" },
@@ -53,10 +74,24 @@ xhttp.onreadystatechange = function () {
         ],
       });
     });
-  }
-};
-xhttp.open("GET", "testdata.json", true);
-xhttp.send();
+    // console.log(tableData);
+  })
+  .catch((err) => {
+    console.log(err.message);
+  });
+
+// var xhttp = new XMLHttpRequest();
+// xhttp.onreadystatechange = function () {
+//   if (this.readyState == 4 && this.status == 200) {
+//     // Typical action to be performed when the document is ready:
+//     requiredObject = JSON.parse(xhttp.responseText);
+
+//     /// Since we already have it in array format  getData(requiredObject)
+
+//   }
+// };
+// xhttp.open("GET", "testdata.json", true);
+// xhttp.send();
 
 // google sign up
 document.getElementById("googleSignUp").addEventListener("click", (xray) => {
@@ -155,3 +190,41 @@ fauth.onAuthStateChanged(function (user) {
     });
   }
 });
+/* Location Home event listener to regenrate table */
+document
+  .getElementById("inputGroupSelect01")
+  .addEventListener("change", function (xray) {
+    const locationSelected = document.getElementById("inputGroupSelect01")
+      .value;
+    // console.log(locationSelected);
+    // console.log(requiredObject[0]);
+    // let filteredList = requiredObject.filter((xray) => {
+    //   return xray["Location"] == locationSelected;
+    // });
+
+    // $("#example").DataTable({
+    //   scrollX: true,
+    //   fixedHeader: true,
+    //   data: filteredList,
+    //   columns: [
+    //     { data: "Location" },
+    //     { data: "partNumber" },
+    //     { data: "textinPlacard" },
+    //     {
+    //       data: "imageLink",
+    //       render: function (data, type, row) {
+    //         return (
+    //           '<img src="' +
+    //           data +
+    //           '" class = "modal-class" style="height:50px;width:100px;" onclick="myFunction()"/>'
+    //         );
+    //       },
+    //     },
+    //   ],
+    // });
+    $("#example")
+      .DataTable()
+      .column(".Location")
+      .search(locationSelected)
+      .draw();
+  });
