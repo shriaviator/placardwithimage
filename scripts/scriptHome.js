@@ -1,5 +1,5 @@
 /*To-Do-Js :close modal on signup/Login*/
-/*To-Do-Js :*/
+/*To-Do-Js :gi*/
 var requiredObject;
 var modal = document.getElementById("myModal");
 var modalImg = document.getElementById("img01");
@@ -19,16 +19,18 @@ function myFunction() {
   });
 }
 /*To-Do-Js :*/
+async function fetchPlacardData() {
+  const response = await fetch("../testdata.json", {
+    headers: {
+      "Content-Type": "application/json",
+      Accept: "application/json",
+    },
+  });
+  const tableData = await response.json();
+  return tableData;
+}
 
-fetch("../testdata.json", {
-  headers: {
-    "Content-Type": "application/json",
-    Accept: "application/json",
-  },
-})
-  .then((response) => {
-    return response.json();
-  })
+fetchPlacardData()
   .then((tableData) => {
     for (let i = 0; i < tableData.length; i++) {
       tableData[i]["imageLink"] = `./images/${tableData[i].partNumber}.jpg`;
