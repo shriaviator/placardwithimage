@@ -20,7 +20,12 @@ function myFunction() {
 }
 /*To-Do-Js :*/
 
-fetch("../testdata.json")
+fetch("../testdata.json", {
+  headers: {
+    "Content-Type": "application/json",
+    Accept: "application/json",
+  },
+})
   .then((response) => {
     return response.json();
   })
